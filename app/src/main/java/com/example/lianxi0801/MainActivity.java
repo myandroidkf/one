@@ -10,5 +10,11 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         System.out.println("第一属性");
+        initview();
+
+    }
+
+    private void initview() {
+        System.out.append("two");
     }
 }
